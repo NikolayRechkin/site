@@ -1,0 +1,13 @@
+footer {
+    background: #444;
+    height: 80px;
+    position: relative;
+}
+footer p {
+    height: 80px;
+    margin: 0;
+    line-height: 80px;
+    font-size: 1em;
+    text-align: center;
+    color: hsla(0,0%,100%,.15);
+}

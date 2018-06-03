@@ -1,0 +1,52 @@
+{
+	"menu": {
+		"home": "home",
+		"about_me": "about me",
+		"work_experience": "work experience",
+		"contacts": "contacts"
+	},
+	"header": {
+		"title_name": "Hello, I'M Nikolay",
+		"title_position": "full stack web developer",
+		"contact_me": "Contact me"
+	},
+	"about": {
+		"title": "About me",
+		"text_from": "I’m Nikolay, a full-steck web developer from Nizniy Novgorod, Russia",
+		"text_work": "I have been working full time at ONLYOFFICE for the past one and half year",
+		"text_about": "I specialize in front end development  and back end development, and I constantly improve my development skills",
+        "skills": {
+        	"title": "Technical skills"            
+        }
+    },
+    "work":{
+    	"title": "Experience",
+    	"onlyoffice": {
+            "companyName": "ONLYOFFICE",
+            "date": "Feb 2017 - Present",
+            "position": "Web Developer",
+            "positionDescription": "My tasks include support of the company's website, support and development of new modules and features of the company's product. I work with HTML, CSS, Less, JavaScript/jQuery , C#, MySQL."
+            
+        },
+        "rfnc":{
+            "companyName": "RUSSIAN  FEDERAL  NUCLEAR  CENTER",
+            "date": "Aug 2015 - Feb 2017",
+            "position": "Web Developer",
+            "positionDescription": "Full stack web developer working with HTML, CSS, JavaScript/jQuery/ExtJS, PHP, MySQL. Responsibilities include designing and developing web application, Linux system administration, back end maintenance."
+        }
+    },
+    "contacts":{
+    	"title": "Contacts",
+    	"email": "email",
+    	"name": "Name",
+    	"phone": "phone",
+    	"social": "social",
+    	"sent": "Sent",
+    	"message":"Message",
+    	"nameError":"The name must be longer than 3 characters",
+    	"emailError": "Email is incorrect"
+    },
+    "footer":{
+    	"text": "Copyright Rechkin Nikolay"
+    }
+}

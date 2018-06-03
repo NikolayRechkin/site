@@ -1,0 +1,82 @@
+#work {
+    background: #333;
+    height: 450px;
+    overflow: hidden;
+    height: auto;
+    position: relative;
+    padding-bottom: 20px;
+}
+#work div.job,
+#contacts div.contacts{
+   -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin-bottom: 2rem;
+    width: 90%;
+    padding-top: 20px;
+    margin: 0 auto;
+}
+#work div.job .job-title{
+    text-align: left;
+    padding-bottom: 2rem;
+}  
+#work div.job .job-title .job-company span{
+    color: #eff;
+    font-size: 1.5em;
+    line-height: 25px;
+}
+#work div.job .job-title .job-company div{
+    color: #eff;
+    font-size: 1.2em;
+    line-height: 60px;
+}
+#work div.job .job-description{
+    text-align: left;
+    padding-bottom: 2rem;
+}  
+#work div.job .job-description p{
+    line-height: 30px;
+} 
+@media screen and (min-width: 900px){
+    #work div.job,
+    #contacts div.contacts {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        padding: 2rem 0;
+    }
+    #contacts div.contacts .links{
+        text-align: left;
+        -webkit-box-flex: 0;
+        -ms-flex: 0 1 200px;
+        flex: 0 1 35%;
+        margin: 0 6rem 0 0;
+    }
+    #work div.job .job-title {
+        text-align: left;
+        -webkit-box-flex: 0;
+        -ms-flex: 0 1 200px;
+        flex: 0 1 400px;
+        margin: 0 6rem 0 0;
+    }
+    #work div.job .job-description,
+    #contacts div.contacts .form {
+        -webkit-box-flex: 1;
+        -ms-flex: 1;
+        flex: 1;
+        padding-top: 45px;
+    }
+    #work div.job .job-description{
+        padding-top: 0;
+    }
+    #work div.job .job-description h3,
+    #work div.job .job-description p{
+        margin-top: 0;
+        text-align: left;
+    }
+    #work div.job .job-description p{
+        line-height: 30px;
+    }
+}

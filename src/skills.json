@@ -1,0 +1,50 @@
+{
+	"skills":[
+        		{
+	                "title": "JavaScript",
+	                "img": "pic/js.png"
+	            },
+	            {
+	                "title": "С#",
+	                "img": "pic/c.png"
+	            },
+	            {
+	                "title": "Php",
+	                "img": "pic/php.png"
+	            },
+	            {
+	                "title": "HTML",
+	                "img": "pic/html.png"
+	            },
+	            {
+	                "title": "Css",
+	                "img": "pic/css.png"
+	            },
+	            {
+	                "title": "Less",
+	                "img": "pic/less.png"
+	            },
+	            {
+	                "title": "Node JS",
+	                "img": "pic/node.png"
+	            },
+	            {
+	                "title": "React JS",
+	                "img": "pic/reactjs.png"
+	            },
+	            {
+	                "title": "Git",
+	                "img": "pic/git.png"
+	            }
+	            ,
+	            {
+	                "title": "SharePoint",
+	                "img": "pic/sharepoint.png"
+	            }
+	            ,
+	            {
+	                "title": "WordPress",
+	                "img": "pic/wp.png"
+	            }
+        	]
+}
