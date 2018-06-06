@@ -15,7 +15,6 @@ export default class Skill extends React.Component{
     
     render() {
         let lng = this.props.lng;
-        console.log(skill_data.skills)
         let skillsElems = skill_data.skills.map((item, i) => {
                 return <div className="skill"><img src={ item.img }></img><h3>{ item.title }</h3></div>
         });

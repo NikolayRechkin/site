@@ -3,9 +3,6 @@ import ReactDOM from 'react-dom';
 import i18next from 'i18next';
 import i18n from './i18n';
 
-import data from './languages/en.json'
-import axios from 'axios';
-
 import Menu from './components/Menu'
 import Header from './components/Header'
 import About from './components/About'

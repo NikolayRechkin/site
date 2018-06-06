@@ -10,7 +10,7 @@ i18next
     lng: 'ru', 
     resources: {
       en: {
-        translation:  en
+        translation: en
       },
       ru: {
         translation: ru

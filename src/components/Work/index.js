@@ -18,7 +18,6 @@ export default class Work extends React.Component{
         let lng = this.props.lng;
 
         let jobsElems = jobs.map((item, i) => {
-                console.log(item)
                 return (
                    <div className="job flex">
                         <div className="job-title">

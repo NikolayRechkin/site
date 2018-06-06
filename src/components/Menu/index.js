@@ -26,19 +26,15 @@ export default class Menu extends React.Component{
            
 
             if(s_top >= (menu_contacts-150)){
-                 console.log(4)
                 menu_nav_a.removeClass('active');
                 jQuery("#menu_contacts").addClass('active');
             }else if(s_top >= (menu_work-50) && s_top < (menu_contacts-150)){
-                console.log(3)
                 menu_nav_a.removeClass('active');
                 jQuery("#menu_work").addClass('active');
             }else if(s_top >= menu_about && s_top < (menu_work-50)){
-                 console.log(2)
                  menu_nav_a.removeClass('active');
                 jQuery("#menu_about").addClass('active');
             }else if(s_top >= 0 && s_top < menu_about){
-                console.log(1)
                 menu_nav_a.removeClass('active');
                 jQuery("#menu_home").addClass('active');
             }
@@ -56,20 +52,17 @@ export default class Menu extends React.Component{
             mainNav.show();
 
             jQuery('#main-nav ul li a').unbind('click').click(function(){
-                console.log('click')
                 var _this = jQuery(this);
                 
                 event.preventDefault();
                 var id  = _this.attr('href'),
                     top = jQuery(id).offset().top;
-                console.log('click1')
                 jQuery('body,html').animate({scrollTop:top},400);
                 if(mainNav.hasClass('mobile') && jQuery('.stellarnav.mobile > ul').is(':visible')){
                     jQuery('#menu-toggle').trigger('click');
                 }
                 jQuery('#main-nav ul li a').removeClass('active');
                 _this.addClass('active');
-                console.log('click2')
             });
 
 
@@ -81,19 +74,15 @@ export default class Menu extends React.Component{
                
                 
                 if(s_top >= (menu_contacts-150)){
-                    console.log(4)
                     menu_nav_a.removeClass('active');
                     jQuery("#menu_contacts").addClass('active');
                 }else if(s_top >= (menu_work-50) && s_top < (menu_contacts-150)){
-                    console.log(3)
                     menu_nav_a.removeClass('active');
                     jQuery("#menu_work").addClass('active');
                 }else if(s_top >= menu_about && s_top < (menu_work-50)){
-                     console.log(2)
                      menu_nav_a.removeClass('active');
                     jQuery("#menu_about").addClass('active');
                 }else if(s_top >= 0 && s_top < menu_about){
-                    console.log(1)
                     menu_nav_a.removeClass('active');
                     jQuery("#menu_home").addClass('active');
                 }
