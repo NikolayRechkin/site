@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import i18next from 'i18next';
 import i18n from '../../i18n';
 import './style.css';
+import axios from 'axios';
 
 export default class UserForm extends React.Component {
       constructor(props) {
@@ -127,14 +128,12 @@ export default class UserForm extends React.Component {
                    this.setState({isEmailError: true,emailError: errorEmail});
                 }else{
                     const { name, email, mess } = this.state;
-                    console.log(name, email, mess)
                     try {
                        await axios.post('/sentemail', { name, email, mess })
                           .then(function (response) {
                             if(response.status == 200){
                                 _this.setState({isSuccessSent: true});
                             }
-                            console.log(response);
                           })
                           .catch(function (error) {
                             console.log(error);
