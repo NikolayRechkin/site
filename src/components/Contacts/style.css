@@ -194,6 +194,7 @@
     height: 50px;
     border-radius: 40px;
     transform: translate(0, -50%);
+    outline: none;
 }
 
 #contacts div.contacts div.form button.is_active .success{
