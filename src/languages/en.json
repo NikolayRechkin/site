@@ -41,7 +41,7 @@
     	"name": "Name",
     	"phone": "phone",
     	"social": "social",
-    	"sent": "Sent",
+    	"sent": "Send",
     	"message":"Message",
     	"nameError":"The name must be longer than 3 characters",
     	"emailError": "Email is incorrect"
