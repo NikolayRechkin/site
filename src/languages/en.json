@@ -1,4 +1,4 @@
-{
+﻿{
 	"menu": {
 		"home": "home",
 		"about_me": "about me",
@@ -22,7 +22,7 @@
     "work":{
     	"title": "Experience",
     	"onlyoffice": {
-            "companyName": "ONLYOFFICE",
+            "companyName": "New communication technologies",
             "date": "Feb 2017 - Present",
             "position": "Web Developer",
             "positionDescription": "My tasks include support of the company's website, support and development of new modules and features of the company's product. I work with HTML, CSS, Less, JavaScript/jQuery , C#, MySQL."
