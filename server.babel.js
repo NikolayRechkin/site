@@ -36,7 +36,7 @@ app.post('/sentemail', function (req, res) {
 			}, function(err){
 				if(err){
 					res.statusCode = 400;
-					res.send('Error');
+					res.send(err);
 					console.log(err);return
 				}
 				res.send('email sent');
@@ -47,7 +47,7 @@ app.post('/sentemail', function (req, res) {
 		}
 	}else{
 		res.statusCode = 400;
-		res.send('Error');
+		res.send('Error '+req.body.name +' '+ req.body.email);
 	}
 	
 	

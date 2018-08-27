@@ -4,7 +4,7 @@ header {
     left: 0;
     top: 0;
     z-index: 3;
-    height: 59px;
+    height: 55px;
     width: 100%;
     background: rgba(51,51,51,.5);
 }
@@ -242,7 +242,7 @@ header nav menu ul li a {
     padding: 20px 40px;
     color: #fff;
     text-transform: uppercase;
-    font-size: 20px;
+    font-size: 16px;
 }
 .stellarnav > ul > li > a.active:after{
     opacity: 1;
@@ -275,7 +275,7 @@ header nav menu ul li a {
     display: block;
     z-index: 100;
     position: fixed;
-    top: 10px;
+    top: 9px;
     right: 10px;
     -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
@@ -365,9 +365,8 @@ header nav menu ul li a {
 #header a.button{
    	width: 170px;
     height: 40px;
-    line-height: 40px;
-    font-size: 19px;
-    font-weight: bold;
+    line-height: 43px;
+    font-size: 16px;
     letter-spacing: 1px;
     border: 2px solid #fff;
     background: transparent;
@@ -396,8 +395,7 @@ header nav menu ul li a {
     #header a.button {
         top: calc(50% + 70px);
 	    padding: 10px 25px;
-	    font-size: 19px;
-	    font-size: 2em;
+	    font-size: 15px;
     }
 }
 #about{
@@ -724,11 +722,10 @@ header nav menu ul li a {
 }
 
 #contacts div.contacts div.form button{
-    width: 170px;
-    height: 40px;
+    width: 180px;
+    height: 50px;
     line-height: 1;
-    font-size: 18px;
-    font-weight: bold;
+    font-size: 16px;
     letter-spacing: 1px;
     border: 2px solid #fff;
     background: #444;
@@ -778,6 +775,7 @@ header nav menu ul li a {
     height: 50px;
     border-radius: 40px;
     transform: translate(0, -50%);
+    outline: none;
 }
 
 #contacts div.contacts div.form button.is_active .success{
