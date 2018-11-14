@@ -13,7 +13,7 @@ app.use(express.static('public'));
 mailer.extend(app,{
 	from: 'nikolaurechkin@gmail.com',
 	host:'smtp.gmail.com',
-	secureConnection: true,
+	secureConnection: false,
 	port: 465,
 	transportMethod: 'SMTP',
 	auth: {
