@@ -14,7 +14,7 @@ app.use(express.static('public'));
 /*mailer.extend(app,{
 	from: 'Winged240592@yandex.ru',
 	host:'smtp.zoho.com',
-	secureConnection: true,
+	secureConnection: false,
 	port: 465,
 	transportMethod: 'SMTP',
 	auth: {
